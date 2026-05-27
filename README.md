@@ -103,8 +103,26 @@ Configure your test settings:
 ## Support
 For issues, questions, or contributions, please open an issue on GitHub.
 
----
+## How this helps
+You can use this for:
 
+1. Broken link checking
+2. Smoke validation
+3. Page title validation
+4. UI content validation
+5. Sitemap crawling
+6. Regression support
+7. Daily health check automation
+8. Report generation
+9. Partner-site data extraction practice
+
+## Support e-commerce site has:
+
+1. 500 product pages
+2. 100 category pages
+Where Manual checking is impossible.
+
+---
 **Project**: QA Utility Bot  
 **Author**: pnilava03  
 **Last Updated**: 2026-05-27
