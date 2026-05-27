@@ -18,15 +18,13 @@ QA Utility Bot is a comprehensive automation solution built with Selenium and Te
 
 ```
 QAUtilityBot/
-├── src/
-│   ├── main/
-│   │   ├── java/          # Main source code
-│   │   └── resources/     # Test resources (configs, test data)
-│   └── test/
-│       ├── java/          # Test cases
-│       └── resources/     # Test resources
-├── pom.xml                # Maven configuration
-└── README.md
+├── base/
+├── pages/
+├── utils/
+├── reports/
+├── testdata/
+├── drivers/
+├── tests/
 ```
 
 ## Prerequisites
@@ -75,10 +73,16 @@ mvn clean package
 
 ## Features
 
-- **Selenium WebDriver Integration** - Browser automation capabilities
-- **TestNG Framework** - Powerful test execution and reporting
-- **CSV Data Management** - Support for data-driven testing with CSV files
-- **Modular Design** - Organized structure for maintainability and scalability
+Features
+
+✔ Browser automation using Selenium WebDriver
+✔ Data-driven testing using CSV files
+✔ Smoke and regression validation support
+✔ Broken link and sitemap crawling support
+✔ Reusable utility-based architecture
+✔ Maven-based dependency management
+✔ TestNG execution and reporting
+✔ Scalable framework structure for future enhancements
 
 ### Test Data
 
@@ -116,11 +120,29 @@ You can use this for:
 
 
 ## Support e-commerce site has:
-
 1. 500 product pages
 2. 100 category pages
 Where Manual checking is impossible.
 
+ ## Future Enhancements
+- Extent Report / Allure Report integration
+- Screenshot capture on failure
+- Headless execution support
+- Docker support
+- Jenkins CI/CD integration
+- Parallel browser execution
+- Cross-browser testing
+- Email report generation
+- API testing integration using REST Assured
+- Cloud execution support (AWS/Jenkins/Grid)
+
+## Example QA Utilities
+- Crawl all URLs from sitemap.xml
+- Validate HTTP status codes
+- Verify page titles
+- Detect broken links
+- Export validation results to CSV
+- Perform smoke validation for production URLs
 ---
 **Project**: QA Utility Bot  
 **Author**: pnilava03  
