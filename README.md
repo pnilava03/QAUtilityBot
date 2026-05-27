@@ -80,14 +80,6 @@ mvn clean package
 - **CSV Data Management** - Support for data-driven testing with CSV files
 - **Modular Design** - Organized structure for maintainability and scalability
 
-## Development
-
-### Adding New Tests
-
-1. Create a new test class in `src/test/java/`
-2. Extend TestNG test classes and use Selenium WebDriver
-3. Add test data files to `src/main/resources/` if needed
-
 ### Test Data
 
 Store test data files (CSV, JSON, etc.) in:
@@ -107,19 +99,8 @@ Configure your test settings:
 - Clear Maven cache: `mvn clean`
 - Update dependencies: `mvn dependency:resolve`
 
-## Contributing
-
-1. Create a feature branch: `git checkout -b feature/your-feature`
-2. Commit changes: `git commit -am 'Add new feature'`
-3. Push to branch: `git push origin feature/your-feature`
-4. Open a Pull Request
-
-## License
-
-This project is open source. See LICENSE file for details.
 
 ## Support
-
 For issues, questions, or contributions, please open an issue on GitHub.
 
 ---
