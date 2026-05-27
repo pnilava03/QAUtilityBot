@@ -110,11 +110,10 @@ You can use this for:
 2. Smoke validation
 3. Page title validation
 4. UI content validation
-5. Sitemap crawling
-6. Regression support
-7. Daily health check automation
-8. Report generation
-9. Partner-site data extraction practice
+5. Regression support
+6. Daily health check automation
+7. Report generation
+
 
 ## Support e-commerce site has:
 
