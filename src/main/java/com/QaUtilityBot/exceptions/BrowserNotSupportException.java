@@ -1,4 +1,8 @@
 package com.QaUtilityBot.exceptions;
 
-public class BrowserNotSupportException {
+public final class BrowserNotSupportException extends RuntimeException {
+
+    public  BrowserNotSupportException(String msg){
+        super(msg);
+    }
 }
